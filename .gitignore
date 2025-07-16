@@ -1,0 +1,14 @@
+# Virtual Environment de Python
+.venv/
+
+# configure de VS Code
+.vscode/
+
+# cache de Python
+__pycache__/
+*.pyc
+
+# others files que not to Up
+.DS_Store # Para macOS
+*.log
+.env # Use Variable Environments .env
