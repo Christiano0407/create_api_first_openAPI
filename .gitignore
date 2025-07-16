@@ -1,14 +1,58 @@
 # Virtual Environment de Python
 .venv/
+venv/
+env/
+/bin/
+/include/
+/lib/
+/share/
 
 # configure de VS Code
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
 
 # cache de Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python/
 
 # others files que not to Up
 .DS_Store # Para macOS
 *.log
 .env # Use Variable Environments .env
+.flaskenv
+# Files de builds y packs
+dist/
+build/
+*.egg-info/
+
+# Files de Jupyter Notebook
+.ipynb_checkpoints
+
+# Files de Data Generate
+uploads/
+tmp/
+
+# Files de cobertura de pruebas
+.coverage
+htmlcov/
+
+# Files specific de Docker
+*.dockerignore
+
+# Files Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Additional ignored files from dev_api
+.pytest_cache/
+*.pid
